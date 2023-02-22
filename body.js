@@ -208,7 +208,7 @@ let template = function (o, Index) {
                 return `<div class="answer" >
 						<div style="font-size:40px;font-family:'楷体';padding-top:15%">${element.answer}、</div>
 						<div><input type="radio" name="${Index}" checked="checked"  pipe="${element.pipe}" score_shizi="${element.score_shizi}" score_pingguo="${element.score_pingguo}" score_jvzi="${element.score_jvzi}"/></div> 
-                        <img src="./image/${Index}_${index}.jpg">
+                        <img src="https://jerry-mu.oss-cn-beijing.aliyuncs.com/image-tfb/image/${Index}_${index}.jpg">
                         </div>`
             }
 
@@ -216,7 +216,7 @@ let template = function (o, Index) {
                 return `<div class="answer" >
 						<div style="font-size:40px;font-family:'楷体';padding-top:15%">${element.answer}、</div>
 						<div><input type="radio" name="${Index}" checked="checked"  pipe="${element.pipe}" score_shizi="${element.score_shizi}" score_pingguo="${element.score_pingguo}" score_jvzi="${element.score_jvzi}"/></div>                
-                        <img src="./image/jiantou.jpg">
+                        <img src="https://jerry-mu.oss-cn-beijing.aliyuncs.com/image-tfb/image/jiantou.jpg">
                         </div>`
             }
         }
